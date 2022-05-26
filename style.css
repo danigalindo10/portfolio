@@ -8,7 +8,8 @@
 
 .header {
   max-width: 80%;
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
   padding: 20px 0;
 }
 
@@ -27,27 +28,27 @@
 }
 
 .hamburger {
-  width: 30px;
+  width: 20px;
 }
 
 .section-title {
-  font-size: 30px;
+  font-size: 28px;
   color: #172b4d;
   font-family: "poppins", sans-serif;
-  margin: 20px;
+  margin: 90px 28px 5px 20px;
   font-weight: bolder;
+  line-height: 52px;
 }
 
 body {
   background: url(Images/background.svg) no-repeat;
-  background-position: 0 50px;
-  background-size: 400px;
+  background-position: 0 60px;
+  background-size: 380px;
 }
 
 .section-text {
-  height: 40vh;
   flex: 1;
-  margin-top: 100px;
+  margin-top: 1px;
 }
 
 .section-content {
@@ -55,9 +56,9 @@ body {
   font-family: 'poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 15.5px;
   line-height: 24px;
-  margin: 20px;
+  margin: 10px 20px 20px 20px;
 }
 
 .main-footer-network-content {
@@ -72,12 +73,16 @@ body {
   font-family: "poppins", sans-serif;
   font-weight: 400;
   text-decoration: none;
-  margin: 20px;
+  margin: 20px 20px 5px 20px;
 }
 
 .footer-network {
   display: flex;
-  margin: 10px;
+  margin: 0 9px 9px 9px;
+}
+
+.footer-network img {
+  width: 20px;
 }
 
 .footer-network:hover {
