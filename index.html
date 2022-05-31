@@ -1,41 +1,389 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header class="header">
+  <!--Beginning of header-->
+  <div class="background"></div>
+  <header id="header">
     <div class="header-content">
       <div class="logo">
         <a href="#">Daniel</a>
       </div>
-        <nav>
-          <img class="hamburger" src="Images/menu.svg" alt="menu">
-        </nav>
+      <nav id="nav">
+        <div class="nav-container">
+          <ul class="categories">
+            <li class="category"><a href="#" class="link">Portfolio</a></li>
+            <li class="category"><a href="#" class="link">About</a></li>
+            <li class="category"><a href="#" class="link">Contact</a></li>
+          </ul>
+        </div>
+        <img class="hamburger" src="Images/menu.svg" alt="menu" />
+      </nav>
     </div>
   </header>
-  <section class="section-text">
-    <div class="section-title">
-      <h1>I'm Daniel</h1> 
-        <h2>Glad to see you!</h2>
+  <!--Final of header-->
+  <!--comienzo del main section-->
+  <main id="lead">
+    <div class="container">
+      <article class="lead-content">
+        <div class="heading">
+          <h1>I'm Daniel Glad to see you!</h1>
+        </div>
+        <div class="section-content">
+          <p>
+            I’m a software developer! I can help you build a product , feature
+            or website Look through some of my work and experience! If you
+            like what you see and have a project you need coded, don’t
+            hestiate to contact me.
+          </p>
+        </div>
+        <div>
+          <div class="social-network">LET'S CONNECT</div>
+          <ul class="social-network-content">
+            <li class="social-network twitter">
+              <a href="/"><img src="Images/twitter.svg" alt="twitter" /></a>
+            </li>
+            <li class="social-network linkedin">
+              <a href="/"><img src="Images/linkedin.svg" alt="linkedin" /></a>
+            </li>
+            <li class="social-network M">
+              <a href="/"><img src="Images/m.svg" alt="M" /></a>
+            </li>
+            <li class="social-network github">
+              <a href="/"><img src="Images/github.svg" alt="github" /></a>
+            </li>
+            <li class="social-network hand">
+              <a href="/"><img src="Images/hand.svg" alt="hand" /></a>
+            </li>
+          </ul>
+        </div>
+      </article>
     </div>
-    <div class="section-content">
-      <p>I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
+  </main>
+  <!--end of main section-->
+  <!--Begining of WORK section-->
+  <section id="work-section">
+    <div class="container">
+      <div class="content-work">
+        <!--Beginin of CARD 1-->
+        <div class="card card1">
+          <img class="card-photo" src="/Images/card1.png" alt="card1" />
+          <div class="card-content">
+            <h2 class="title">Tonic</h2>
+            <ul class="list">
+              <li class="list-element">CANOPY</li>
+              <li class="dot"><span class="point"></span></li>
+              <li class="list-element text-grey">Back End Dev</li>
+              <li class="dot"><span class="point"></span></li>
+              <li class="list-element text-grey">2015</li>
+            </ul>
+            <p class="text">
+              A daily selection of privately personalized reads; no accounts
+              or sign-ups required.
+            </p>
+            <div class="card-exp">
+              <div class="Languages">
+                <ul class="card-languages">
+                  <li class="lan"><span>html</span></li>
+                  <li class="lan"><span>css</span></li>
+                  <li class="lan"><span>javaScript</span></li>
+                </ul>
+              </div>
+            </div>
+            <div class="button">
+              <button class="btn" type="button">See Project</button>
+            </div>
+          </div>
+        </div>
+        <!--End of CARD 1-->
+        <!--Beginin of CARD 2-->
+        <div class="card card2">
+          <img class="card-photo" src="/Images/card2.png" alt="card2" />
+
+          <div class="card-content">
+            <h2 class="title">Multi-Post Stories</h2>
+            <ul class="list">
+              <li class="list-element">CANOPY</li>
+              <li class="dot"><span class="point"></span></li>
+              <li class="list-element text-grey">Back End Dev</li>
+              <li class="dot"><span class="point"></span></li>
+              <li class="list-element text-grey">2015</li>
+            </ul>
+            <p class="text">
+              A daily selection of privately personalized reads; no accounts
+              or sign-ups required.
+            </p>
+            <div class="card-exp">
+              <div class="Languages">
+                <ul class="card-languages">
+                  <li class="lan"><span>html</span></li>
+                  <li class="lan"><span>css</span></li>
+                  <li class="lan"><span>javaScript</span></li>
+                </ul>
+              </div>
+            </div>
+            <div class="button">
+              <button class="btn" type="button">See Project</button>
+            </div>
+          </div>
+        </div>
+        <!--End of CARD 2-->
+        <!--Beginin of CARD 3-->
+        <div class="card card3">
+          <img class="card-photo" src="/Images/card3.png" alt="card3" />
+
+          <div class="card-content">
+            <h2 class="title">Tonic</h2>
+            <ul class="list">
+              <li class="list-element">CANOPY</li>
+              <li class="dot"><span class="point"></span></li>
+              <li class="list-element text-grey">Back End Dev</li>
+              <li class="dot"><span class="point"></span></li>
+              <li class="list-element text-grey">2015</li>
+            </ul>
+            <p class="text">
+              A daily selection of privately personalized reads; no accounts
+              or sign-ups required.
+            </p>
+            <div class="card-exp">
+              <div class="Languages">
+                <ul class="card-languages">
+                  <li class="lan"><span>html</span></li>
+                  <li class="lan"><span>css</span></li>
+                  <li class="lan"><span>javaScript</span></li>
+                </ul>
+              </div>
+            </div>
+            <div class="button">
+              <button class="btn" type="button">See Project</button>
+            </div>
+          </div>
+        </div>
+        <!--End of CARD 3-->
+        <!--Beginin of CARD 4-->
+        <div class="card card4">
+          <img class="card-photo" src="/Images/card4.png" alt="card4" />
+
+          <div class="card-content">
+            <h2 class="title">Multi-Post Stories</h2>
+            <ul class="list">
+              <li class="list-element">CANOPY</li>
+              <li class="dot"><span class="point"></span></li>
+              <li class="list-element text-grey">Back End Dev</li>
+              <li class="dot"><span class="point"></span></li>
+              <li class="list-element text-grey">2015</li>
+            </ul>
+            <p class="text">
+              A daily selection of privately personalized reads; no accounts
+              or sign-ups required.
+            </p>
+            <div class="card-exp">
+              <div class="Languages">
+                <ul class="card-languages">
+                  <li class="lan"><span>html</span></li>
+                  <li class="lan"><span>css</span></li>
+                  <li class="lan"><span>javaScript</span></li>
+                </ul>
+              </div>
+            </div>
+            <div class="button">
+              <button class="btn" type="button">See Project</button>
+            </div>
+          </div>
+        </div>
+        <!--End of CARD 4-->
+      </div>
     </div>
-    <footer>
-      <div class="footer-content">LET'S CONNECT</div>
-      <ul class="main-footer-network-content">
-        <li class="footer-network twitter"><a href="/"><img src="Images/twitter.svg" alt="twitter"></a></li>
-        <li class="footer-network linkedin"><a href="/"><img src="Images/linkedin.svg" alt="linkedin"></a></li>
-        <li class="footer-network M"><a href="/"><img src="Images/m.svg" alt="M"></a></li>
-        <li class="footer-network github"><a href="/"><img src="Images/github.svg" alt="github"></a></li>
-        <li class="footer-network hand"><a href="/"><img src="Images/hand.svg" alt="hand"></a></li>
-      </ul>
-    </footer>
+  </section>
+  <!--Cierre del Work Section-->
+
+  <!--begining of ABOUT ME-->
+  <section id="About">
+    <div class="container">
+      <div class="about-me-content">
+        <h2 class="title">About Myself</h2>
+        <p class="description">
+          Hello I’m a software developer! I can help you build a product ,
+          feature or website Look through some of my work and experience! If
+          you like what you see and have a project you need coded, don’t
+          hestiate to contact me.
+        </p>
+        <div class="bottom-content">
+          <p class="connectt">LET'S CONNECT</p>
+          <ul class="social-network-content1">
+            <li class="social-network1">
+              <a href="/"><img src="Images/github.svg" alt="github" /></a>
+            </li>
+            <li class="social-network1">
+              <a href="/"><img src="Images/linkedin.svg" alt="linkedin" /></a>
+            </li>
+            <li class="social-network1">
+              <a href="/"><img src="Images/hand.svg" alt="hand" /></a>
+            </li>
+            <li class="social-network1">
+              <a href="/"><img src="Images/twitter.svg" alt="twitter" /></a>
+            </li>
+
+            <li class="social-network1">
+              <a href="/"><img src="Images/m.svg" alt="M" /></a>
+            </li>
+          </ul>
+          <div class="resume-button">
+            <button class="btnn" type="button">Get my resume</button>
+          </div>
+        </div>
+      </div>
+      <!--End of about me-->
+      <!--Beginin of Languages-->
+      <div class="coding-languages">
+        <div class="coding-languages-content">
+          <!--got it from W3 Schools-->
+          <ul class="about-details">
+            <li>
+              <details>
+                <summary>
+                  Languages
+                  <label class="summary-chevron-up">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="feather feather-chevron-down"
+                    >
+                      <polyline points="6 9 12 15 18 9"></polyline>
+                    </svg>
+                  </label>
+                </summary>
+
+                <ul class="langs">
+                  <li class="langg">
+                    <img src="Images/javascript.svg" alt="javascript" />
+                    <span class="langgg">JavaScript</span>
+                  </li>
+                  <li class="langg">
+                    <img src="Images/html.svg" alt="html" />
+                    <span class="langgg">HTML</span>
+                  </li>
+                  <li class="langg">
+                    <img src="Images/css.svg" alt="css" />
+                    <span class="langgg">CSS</span>
+                  </li>
+                </ul>
+
+                <div class="summary-chevron-down">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="feather feather-chevron-up"
+                  >
+                    <polyline points="18 15 12 9 6 15"></polyline>
+                  </svg>
+                </div>
+              </details>
+            </li>
+            <li>
+              <details>
+                <summary>
+                  FrameWorks
+
+                  <label class="summary-chevron-up">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="feather feather-chevron-down"
+                    >
+                      <polyline points="6 9 12 15 18 9"></polyline>
+                    </svg>
+                  </label>
+                </summary>
+                <div class="summary-chevron-down">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="feather feather-chevron-up"
+                  >
+                    <polyline points="18 15 12 9 6 15"></polyline>
+                  </svg>
+                </div>
+              </details>
+            </li>
+            <li>
+              <details>
+                <summary>
+                  Skills
+
+                  <label class="summary-chevron-up">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="feather feather-chevron-down"
+                    >
+                      <polyline points="6 9 12 15 18 9"></polyline>
+                    </svg>
+                  </label>
+                </summary>
+                <div class="summary-chevron-down">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="feather feather-chevron-up"
+                  >
+                    <polyline points="18 15 12 9 6 15"></polyline>
+                  </svg>
+                </div>
+              </details>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
   </section>
 </body>
 </html>
