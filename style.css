@@ -318,6 +318,18 @@ ul {
   border-radius: 8px;
 }
 
+.button .btn:hover {
+  background-color: #6070ff;
+  border: 1px solid #6070ff;
+  color: #fff;
+}
+
+.button .btn:active {
+  background-color: #2230d2;
+  border: 1px solid #2230d2;
+  color: #fff;
+}
+
 #About {
   background-color: #ffff;
   border-top-right-radius: 85px;
@@ -369,9 +381,9 @@ ul {
   border: 1px solid #6070ff;
 }
 
-.Languages {
+.card-languages {
   display: flex;
-  gap: 15px;
+  gap: 10px;
 }
 
 .lan span {
