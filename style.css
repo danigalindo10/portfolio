@@ -15,7 +15,7 @@ body {
 
 html body {
   overflow-x: hidden;
-} 
+}
 
 .background {
   position: absolute;
@@ -346,7 +346,7 @@ ul {
   font-weight: 500;
   color: #7f8cff;
   margin-top: -15px;
-} 
+}
 
 #About .about-me-content {
   display: flex;
@@ -445,7 +445,7 @@ summary:hover .summary-chevron-up svg {
   font-weight: 500;
 }
 
-/* Form Section REVISAR CON EL DESKTOP VERSION*/
+/* Form Section */
 footer {
   background-color: #fff;
 }
@@ -584,4 +584,4 @@ textarea {
   transition-duration: 0.1s;
 }
 
-/* End of form section REVISAR CON EL DESKTOP VERSION */
+/* End of form section */
