@@ -726,11 +726,6 @@ textarea {
     margin-bottom: -5px;
   }
 
-  #About .about-me-content,
-  .coding-languages {
-    padding: unset;
-  }
-
   .coding-languages {
     float: right;
     height: 700px;
