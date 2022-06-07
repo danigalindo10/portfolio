@@ -2,7 +2,7 @@
 
 # Portfolio
 
-> Second Project of a mobile version skeleton
+> Desktop Version
 
 
 ## Built With
