@@ -598,7 +598,7 @@ textarea {
 
 @media only screen and (min-width: 768px) {
   .background {
-    background: url(images/header-background-desktop.svg) #fff no-repeat;
+    background: url(Images/header-background-desktop.svg) #fff no-repeat;
     background-size: 100%;
     background-position-y: 55px;
     height: 860px;
@@ -769,7 +769,7 @@ textarea {
 
   /* contact form */
   .footer-container {
-    background: url(images/footer-background-desktop.svg) #6070ff no-repeat;
+    background: url(Images/footer-background-desktop.svg) #6070ff no-repeat;
     background-position: 65px 80px;
     background-size: 90%;
     height: 880px;
