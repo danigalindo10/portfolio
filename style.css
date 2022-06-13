@@ -296,6 +296,8 @@ ul {
   color: #344563;
 }
 
+/* Accessibility Changes */
+
 .button .btn {
   background-color: #ffff;
   padding: 12px;
@@ -319,6 +321,8 @@ ul {
   color: #fff;
   transition-duration: 0.1s;
 }
+
+/* End of Accessibility Changes */
 
 #About {
   background-color: #ffff;
@@ -540,6 +544,8 @@ textarea {
   line-height: 24px;
 }
 
+/* Accessibility Changes */
+
 .resume-button .btnn {
   border-radius: 8px;
   font-weight: 500;
@@ -588,6 +594,8 @@ textarea {
   background-color: #2230d2;
   transition-duration: 0.1s;
 }
+
+/* End of Accessibility Changes */
 
 /* End of form section */
 
@@ -730,11 +738,14 @@ textarea {
     background-color: #fff;
     border-top-right-radius: 90px;
   }
-  
+
+  /* Accessitility Changes */
   .about-details-row:focus {
-    outline: 2px solid #015FCC;
+    outline: 2px solid #015fcc;
     border-radius: 10px;
   }
+
+  /* End of Accessibility Changes */
 
   summary {
     font-size: 20px;
