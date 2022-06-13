@@ -146,7 +146,7 @@ main #lead {
 }
 
 .lead-content .social-network {
-  color: #5059A6;
+  color: #5059a6;
   margin-top: -5px;
   font-size: 15px;
   margin-left: 3px;
@@ -458,7 +458,7 @@ footer {
 }
 
 .footer-container {
-  background: url(Images/footer-background.svg) #4B58CC no-repeat;
+  background: url(Images/footer-background.svg) #4b58cc no-repeat;
   background-size: 57.5%;
   background-position-x: right;
   background-position-y: 20px;
@@ -782,7 +782,7 @@ textarea {
 
   /* Contact form */
   .footer-container {
-    background: url(Images/footer-background-desktop.svg) #4B58CC no-repeat;
+    background: url(Images/footer-background-desktop.svg) #4b58cc no-repeat;
     background-position: 65px 80px;
     background-size: 90%;
     height: 880px;
