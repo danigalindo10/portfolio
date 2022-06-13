@@ -62,7 +62,7 @@ html body {
 
 .logo a {
   font-size: 18px;
-  color: #6070ff;
+  color: #5664e5;
   font-family: "poppins", sans-serif;
   font-weight: 700;
   letter-spacing: 1.2px;
@@ -202,7 +202,7 @@ main #lead {
 }
 
 .list-element.text-grey {
-  color: #7a869a;
+  color: #677283;
 }
 
 .card-photo {
@@ -295,16 +295,16 @@ ul {
 .button .btn {
   background-color: #ffff;
   padding: 12px;
-  border: 1px solid #6070ff;
-  color: #6070ff;
+  border: 1px solid #5664e5;
+  color: #5664e5;
   font-weight: 500;
   font-size: 17px;
   border-radius: 8px;
 }
 
 .button .btn:hover {
-  background-color: #6070ff;
-  border: 1px solid #6070ff;
+  background-color: #5664e5;
+  border: 1px solid #5664e5;
   color: #fff;
   transition-duration: 0.1s;
 }
@@ -342,7 +342,7 @@ ul {
 #About .connectt {
   font-size: 16px;
   font-weight: 500;
-  color: #7f8cff;
+  color: #606bc3;
   margin-top: -15px;
 }
 
@@ -362,13 +362,13 @@ ul {
   gap: 15px;
 }
 
-/* .card-languages {
+.card-languages {
   display: flex;
   gap: 10px;
-} */
+}
 
 .lan span {
-  color: #6070ff;
+  color: #4c5ace;
   background-color: #ebebff;
   padding: 4px 12px 4px 12px;
   border-radius: 8px;
@@ -376,14 +376,6 @@ ul {
   font-family: "poppins", sans-serif;
   font-weight: 500;
 }
-
-/* Pair programming */
-li.lan {
-  float: left;
-  margin: 0 3px;
-}
-
-/* pair programming */
 
 details {
   font-size: 1rem;
@@ -546,29 +538,29 @@ textarea {
 .resume-button .btnn {
   border-radius: 8px;
   font-weight: 500;
-  color: #6070ff;
+  color: #5664e5;
   background-color: transparent;
   font-size: 17px;
   padding: 12px;
-  border: 1px solid #6070ff;
+  border: 1px solid #5664e5;
 }
 
 .form-button button {
   background: #fff;
   border-radius: 8px;
-  color: #6070ff;
+  color: #5664e5;
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
   text-align: center;
   letter-spacing: 0.03cm;
   padding: 12px 16px;
-  border: 1px solid #6070ff;
+  border: 1px solid #5664e5;
 }
 
 .resume-button .btnn:hover {
-  background-color: #6070ff;
-  border: 1px solid #6070ff;
+  background-color: #5664e5;
+  border: 1px solid #5664e5;
   color: #fff;
   transition-duration: 0.1s;
 }
@@ -581,7 +573,7 @@ textarea {
 }
 
 .form-button button:hover {
-  background-color: #6070ff;
+  background-color: #5664e5;
   color: #fff;
   font-weight: 300;
   transition-duration: 0.1s;
@@ -598,7 +590,7 @@ textarea {
 
 @media only screen and (min-width: 768px) {
   .background {
-    background: url(images/header-background-desktop.svg) #fff no-repeat;
+    background: url(Images/header-background-desktop.svg) #fff no-repeat;
     background-size: 100%;
     background-position-y: 55px;
     height: 860px;
@@ -767,9 +759,9 @@ textarea {
 
   /* end of About me */
 
-  /* contact form */
+  /* Contact form */
   .footer-container {
-    background: url(images/footer-background-desktop.svg) #6070ff no-repeat;
+    background: url(Images/footer-background-desktop.svg) #6070ff no-repeat;
     background-position: 65px 80px;
     background-size: 90%;
     height: 880px;
@@ -796,4 +788,4 @@ textarea {
   }
 }
 
-/* end of contact form */
+/* end of Contact form */

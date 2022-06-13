@@ -1,0 +1,4 @@
+.social-network a img:hover {
+  transform: scale(2.5);
+  transition-duration: 0.2s;
+}
