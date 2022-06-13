@@ -17,6 +17,10 @@ html body {
   overflow-x: hidden;
 }
 
+a {
+  text-decoration: none;
+}
+
 .background {
   position: absolute;
   background-image: url("Images/background.svg");
@@ -391,6 +395,7 @@ summary {
   list-style: none;
   padding: 1em;
   font-weight: 500;
+  color: black;
 }
 
 summary::-webkit-details-marker {
@@ -725,6 +730,11 @@ textarea {
     background-color: #fff;
     border-top-right-radius: 90px;
   }
+  
+  .about-details-row:focus {
+    outline: 2px solid #015FCC;
+    border-radius: 10px;
+  }
 
   summary {
     font-size: 20px;
@@ -759,7 +769,7 @@ textarea {
 
   /* end of About me */
 
-  /* Contact Form */
+  /* Contact form */
   .footer-container {
     background: url(Images/footer-background-desktop.svg) #6070ff no-repeat;
     background-position: 65px 80px;
@@ -788,4 +798,4 @@ textarea {
   }
 }
 
-/* end of Contact Form */
+/* end of Contact form */
