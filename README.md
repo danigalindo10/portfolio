@@ -2,7 +2,7 @@
 
 # Portfolio
 
-> Desktop Version
+> Application Deploy
 
 
 ## Built With
@@ -11,6 +11,9 @@
 - Linters
 - Figma
 - HTML and CSS
+
+## Access to the Online Version
+https://danigalindo10.github.io/portfolio/
 
 ## Live Demo (if available)
 
