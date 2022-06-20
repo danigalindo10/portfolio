@@ -1,3 +1,4 @@
+/* eslint-disable no-plusplus */
 const hamburgerButton = document.getElementById('menu-btn');
 
 hamburgerButton.addEventListener('click', () => {
