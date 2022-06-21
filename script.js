@@ -140,6 +140,7 @@ function popUpTechnologies(projectNumber) {
   return codingSkills;
 }
 
+// eslint-disable-next-line no-unused-vars
 function showPopUp(cardNumber) {
   let paragraphText = '';
 
@@ -164,7 +165,9 @@ function showPopUp(cardNumber) {
               <li class="dot"><span class="point"></span></li>
               <li class="list-element text-grey">2015</li>
             </ul>
-            <img class="card-photo" src="${projectsInfo[cardNumber].project_image}" alt="card2" />
+            <div>
+              <img class="card-photo" src="${projectsInfo[cardNumber].project_image}" alt="card2" />
+            </div>
             <div id="pop-up-columns">
               <div id="pop-up-left-column">
                 <p class="text">${paragraphText}</p>
