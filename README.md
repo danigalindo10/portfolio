@@ -41,6 +41,10 @@ Then open your favourite code editor (Optional VSCode), and use the live server 
 - Twitter: [@codedanig](https://twitter.com/codedanig)
 - LinkedIn: [Daniel Galindo](https://www.linkedin.com/in/daniel-galindo-31b922236/)
 
+👤 **Riziki Bulambo**
+
+- GitHub: [Jeanbulambo](https://github.com/jeanbulambo)
+
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
