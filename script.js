@@ -165,8 +165,7 @@ function showPopUp(cardNumber) {
               <li class="dot"><span class="point"></span></li>
               <li class="list-element text-grey">2015</li>
             </ul>
-            <div>
-              <img class="card-photo" src="${projectsInfo[cardNumber].project_image}" alt="card2" />
+            <div style="background: url(${projectsInfo[cardNumber].project_image}) no-repeat center; background-size: 1334px" class="card-photo">
             </div>
             <div id="pop-up-columns">
               <div id="pop-up-left-column">
