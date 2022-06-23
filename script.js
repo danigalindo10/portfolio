@@ -205,3 +205,13 @@ function showPopUp(cardNumber) {
 }
 
 // End of Windows Pop Ups
+
+// Validation Form
+
+document.getElementById('submit-button-form').addEventListener('click', (event) => {
+  const email = document.getElementById('mail');
+  if (email.checkValidity(/[A-Z]/.test(email))) {
+    event.preventDefault();
+    email.setCustomValidity('Email must be on lowercase.');
+  }
+});
