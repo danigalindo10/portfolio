@@ -226,5 +226,3 @@ form.addEventListener('submit', (e) => {
     error.style.backgroundColor = 'red';
   }
 });
-
-// End of Validation Form
