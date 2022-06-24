@@ -269,4 +269,5 @@ function loadLocalStorageData() {
 window.onload = () => {
   loadLocalStorageData();
   // console.log('The DOM it's uploaded');
-};
+}; 
+// End of preserve data in the browser section
