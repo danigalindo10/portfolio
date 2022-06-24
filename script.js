@@ -208,10 +208,21 @@ function showPopUp(cardNumber) {
 
 // Validation Form
 
-document.getElementById('submit-button-form').addEventListener('click', (event) => {
-  const email = document.getElementById('mail');
-  if (email.checkValidity(/[A-Z]/.test(email))) {
-    event.preventDefault();
-    email.setCustomValidity('Email must be on lowercase.');
+const form = document.querySelector('.form-contact');
+const email = document.getElementById('mail');
+const error = document.querySelector('small');
+form.addEventListener('submit', (e) => {
+  const message = [];
+
+  if (email.value !== email.value.toLowerCase()) {
+    message.push('Email must be on lowercase.');
+  }
+
+  if (message.length > 0) {
+    e.preventDefault();
+    error.innerHTML = message.join('<br/>');
+    email.style.border = '2px solid #df0000';
+    email.style.borderRadius = '3px';
+    error.style.backgroundColor = 'red';
   }
 });

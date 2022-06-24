@@ -541,6 +541,11 @@ textarea {
   line-height: 24px;
 }
 
+small {
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
 /* Accessibility Changes */
 .resume-button .btnn {
   border-radius: 8px;
