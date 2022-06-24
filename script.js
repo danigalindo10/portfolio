@@ -236,13 +236,7 @@ function getFormData() {
     message: document.getElementById('msg').value,
   };
 
-  // // Put the object into storage
   localStorage.setItem('formData', JSON.stringify(formData));
-
-  // // Retrieve the object from storage
-  const retrieveFormData = localStorage.getItem('formData');
-  // eslint-disable-next-line no-console
-  console.log(JSON.parse(retrieveFormData));
 }
 
 document.getElementById('name').addEventListener('change', () => {
@@ -257,7 +251,6 @@ document.getElementById('msg').addEventListener('change', () => {
 
 function loadLocalStorageData() {
   if (localStorage.getItem('formData') !== null) {
-    // console.log('Content exists');
     const retrieveFormData = localStorage.getItem('formData');
     const retrieveJsonData = JSON.parse(retrieveFormData);
     document.getElementById('name').value = retrieveJsonData.name;
@@ -268,6 +261,4 @@ function loadLocalStorageData() {
 
 window.onload = () => {
   loadLocalStorageData();
-  // console.log('The DOM it's uploaded');
 };
-// End of preserve data in the browser section
