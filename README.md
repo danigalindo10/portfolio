@@ -2,12 +2,14 @@
 
 # Portfolio
 
-> Application Deploy:
+> Preserve data in the browser:
 
-In this project I:
+In this project Riziki Bulabo and Daniel Galindo, We applied the following elements:
 
-- Created the Desktop Version of my portfolio.
-- Created the online version deploying it with GitHub pages.
+- When the user changes the content of any input field, the data is saved to the local storage.
+- When the user loads the page, if there is any data in the local storage the input fields are pre-filled with this data.
+- We used the following data model:
+- We created a single JavaScript object with all the data from the entire form and save it in local storage. We didn't create one local storage entry per input field. 
 
 
 ## Built With
@@ -16,6 +18,7 @@ In this project I:
 - Linters
 - Figma
 - HTML and CSS
+- Javascript
 
 ## Access to the Online Version
 https://danigalindo10.github.io/portfolio/

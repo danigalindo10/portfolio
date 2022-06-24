@@ -78,9 +78,7 @@
 <!--Begining of WORK section-->
 <section id="work-section">
   <div class="container">
-    <div class="content-work">
-      
-    </div>
+    <div class="content-work"></div>
   </div>
 </section>
 <!--Cierre del Work Section-->
@@ -275,17 +273,17 @@
       <ul id="form_ul">
         <li>
           <label>
-            <input type="text" id="name" name="user_name" placeholder="Your Name" maxlength="30" required>
+            <input type="text" id="name" name="user_name" placeholder="Your Name" maxlength="30" onchange="getFormData()" required>
           </label>
         </li>
         <li>
           <label>
-            <input type="email" id="mail" name="user_email" placeholder="example@gmail.com" required>
+            <input type="email" id="mail" name="user_email" placeholder="example@gmail.com" onchange="getFormData()" required>
           </label>
         </li>
         <li>
           <label>
-            <textarea id="msg" name="user_message" placeholder="Write your message here" maxlength="500" required></textarea>
+            <textarea id="msg" name="user_message" placeholder="Write your message here" maxlength="500" onchange="getFormData()" required></textarea>
           </label>
         </li>
  

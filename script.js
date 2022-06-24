@@ -206,7 +206,7 @@ function showPopUp(cardNumber) {
 
 // End of Windows Pop Ups
 
-// Validation Form
+// Validation Form Section
 
 const form = document.querySelector('.form-contact');
 const email = document.getElementById('mail');
@@ -226,3 +226,39 @@ form.addEventListener('submit', (e) => {
     error.style.backgroundColor = 'red';
   }
 });
+
+// Preserve Data on the Browser Section
+
+function getFormData() {
+  const formData = {
+    name: document.getElementById('name').value,
+    email: document.getElementById('mail').value,
+    message: document.getElementById('msg').value,
+  };
+
+  localStorage.setItem('formData', JSON.stringify(formData));
+}
+
+document.getElementById('name').addEventListener('change', () => {
+  getFormData();
+});
+document.getElementById('mail').addEventListener('change', () => {
+  getFormData();
+});
+document.getElementById('msg').addEventListener('change', () => {
+  getFormData();
+});
+
+function loadLocalStorageData() {
+  if (localStorage.getItem('formData') !== null) {
+    const retrieveFormData = localStorage.getItem('formData');
+    const retrieveJsonData = JSON.parse(retrieveFormData);
+    document.getElementById('name').value = retrieveJsonData.name;
+    document.getElementById('mail').value = retrieveJsonData.email;
+    document.getElementById('msg').value = retrieveJsonData.message;
+  }
+}
+
+window.onload = () => {
+  loadLocalStorageData();
+};
